@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFF9C4">
+
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the capital of France?"
+        android:textSize="42sp"
+        android:textColor="#D32F2F"
+        android:layout_marginBottom="40dp"
+        android:background="#FFECB3"
+        android:padding="15dp"
+        android:fontFamily="casual"
+        android:layout_gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/answers_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#BBDEFB"
+        android:padding="20dp"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berlin"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="casual" />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Madrid"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="casual" />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paris"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="casual" />
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rome"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="casual" />
+    </RadioGroup>
+</LinearLayout>
